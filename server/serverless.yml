@@ -1,0 +1,26 @@
+service: eastenders
+
+plugins:
+  - serverless-offline
+
+custom:
+  serverless-offline:
+    httpPort: 4000
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  region: eu-west-1
+  environment:
+    HOST: 127.0.0.1
+    DATABASE: eastenders
+    USER: root
+    PASSWORD: secret
+
+functions:
+  characters:
+    handler: index.handler
+    events:
+      - http:
+          path: characters
+          method: get

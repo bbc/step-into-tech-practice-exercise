@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "serverless": "^1.68.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "serverless-http": "^2.3.2",
+    "serverless-mysql": "^1.5.4",
+    "serverless-offline": "^6.1.4"
+  },
+  "scripts": {
+    "prestart": "docker-compose up -d",
+    "start": "serverless offline start"
+  }
+}
