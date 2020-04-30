@@ -34,7 +34,7 @@ npm start
 
 This will fire up your server, you can check it's working by visiting [http://localhost:4000/dev/characters](http://localhost:4000/dev/characters)
 
-### Client
+### Client
 
 The client is built on top of [Create React App](https://github.com/facebook/create-react-app).
 
