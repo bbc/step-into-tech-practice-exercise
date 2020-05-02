@@ -8,7 +8,7 @@
 
 Before you start, you'll need to install [docker](https://docs.docker.com/get-docker/) and the [serverless](https://www.serverless.com/framework/docs/getting-started#install-via-npm) framework.
 
-You can use a programme like [Sequel Pro](https://www.sequelpro.com/) to inspect your database.
+You can use a programme like [Sequel Pro](https://www.sequelpro.com/) (for Mac users), or [HeidiSQL](https://www.heidisql.com/)/[MySQL Workbench](https://www.mysql.com/products/workbench/) (for Windows users) to inspect your database. 
 The login details for the database can be found in the [serverless.yml](server/serverless.yml) file.
 
 ## 🏃‍♀️ Getting started
