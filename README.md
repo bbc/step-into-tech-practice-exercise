@@ -16,8 +16,8 @@ The login details for the database can be found in the [serverless.yml](server/s
 Clone this project and navigate to the directory
 
 ```
-git clone https://github.com/bbc/step-into-tech-exercise
-cd step-into-tech-exercise
+git clone https://github.com/bbc/step-into-tech-practice-exercise
+cd step-into-tech-practice-exercise
 ```
 
 You will need 2 terminal windows for the next part as you need to run commands in the client and server directories:
@@ -34,7 +34,7 @@ npm start
 
 This will fire up your server, you can check it's working by visiting [http://localhost:4000/dev/characters](http://localhost:4000/dev/characters)
 
-### Client
+### Client
 
 The client is built on top of [Create React App](https://github.com/facebook/create-react-app).
 
